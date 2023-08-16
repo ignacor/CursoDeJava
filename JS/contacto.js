@@ -1,8 +1,5 @@
 const cuerpo = document.body
 
-
-
-
 const containercontac = document.createElement('div') ; containercontac.classList = 'containercontac'
 cuerpo.prepend(containercontac) 
 
@@ -82,7 +79,7 @@ contactform.style.border = '2px solid black'
 contactform.style.borderRadius = '25px'
  // form//
 form.style.display = 'grid'
-form.style.gridTemplateColumns = '1fr 1fr '
+form.style.gridTemplateColumns = '1fr '
 //label//
 nombre.style.display = 'block'
 nombre.innerText = 'Nombre completo'
